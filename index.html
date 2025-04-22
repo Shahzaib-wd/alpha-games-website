@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Games</title>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+            <!-- --------------navbar------------ -->
+
+
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.png" alt="logo" style="height: 40px" />
+        </a>
+
+        <!-- Toggler button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+
+          <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+        <!-- --------------navbar-end------------ -->
+
+
+
+
+
+          <!-- ------------hero-section-start------------- -->
+
+
+
+    <div
+      id="customCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="3000"
+    >
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+          <div class="carousel-caption d-block">
+            <div class="text">
+              <h2>Free Fire - Battle Royale</h2>
+              <p>
+                An exciting free stlye battle of <strong>50 players</strong> is
+                on the <b>Rock</b>
+              </p>
+            </div>
+            <div class="details">
+              <h3>-100%</h3>
+              <div class="price-">
+                <h5 id="line">$19.99</h5>
+                <h3>FREE</h3>
+              </div>
+              <i class="fa-regular fa-heart"></i>
+              <div class="cart">
+                <i class="fa-solid fa-cart-plus"> Add to cart</i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+          <div class="carousel-caption d-block">
+            <div class="text">
+              <h2>Tomb raider - (2016)</h2>
+              <p>An <strong>Un-Imaginary</strong> journey of lara in woods</p>
+            </div>
+            <div class="details">
+              <h3>-60%</h3>
+              <div class="price-">
+                <h5 id="line">$66.99</h5>
+                <h3>$23.99</h3>
+              </div>
+              <i class="fa-regular fa-heart"></i>
+              <div class="cart">
+                <i class="fa-solid fa-cart-plus"> Add to cart</i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img src="3.jpg" class="d-block w-100" alt="Slide 3" />
+          <div class="carousel-caption d-block">
+            <div class="text">
+              <h2>GTA-6 (Upcoming)</h2>
+              <p>
+                Seems like the <strong>Wait</strong> is <b>Over</b> And the
+                expected launch is by the end of the year
+                <strong>(2025)</strong>
+              </p>
+            </div>
+
+            <div class="details">
+              <h3>-67%</h3>
+              <div class="price-">
+                <h5 id="line">$229.99</h5>
+                <h3>$99.99</h3>
+              </div>
+              <i class="fa-regular fa-heart"></i>
+              <div class="cart">
+                <i class="fa-solid fa-cart-plus"> Add to cart</i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#customCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#customCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+          <!-- ------------hero-section-end------------- -->
+
+
+
+
+    <!-- ------------------featured-section-start------------- -->
+
+    <section id="featured">
+      <div class="container">
+        <h2>Featured :</h2>
+        <hr />
+        <div class="row">
+          <div id="left" class="col-sm-12 col-md-6 col-lg-4 cards data-aos=" data-aos="fade-left" >
+            <div class="card" style="width: 100%">
+              <img src="game1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Tomb Raider (2016)</h5>
+                <p class="card-text">
+                  <span>TOMB RAIDER</span> raises the bar set by Lara's adventure story, strong villains, gorgeous vistas, and smart puzzles.
+                </p>
+                <a href="#" class="btn btn-primary">$23.99</a>
+              </div>
+            </div>
+          </div>
+          <div id="left" class="col-sm-12 col-md-6 col-lg-4 cards" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card" style="width: 100%">
+              <img src="game2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Battle-Field 3</h5>
+                <p class="card-text">
+                  <span>BATTLEFIELD 3</span> - players step into the role and experience heart-pounding single player missions and competitive multiplayer
+                </p>
+                <a href="#" class="btn btn-primary">$76.99</a>
+              </div>
+            </div>
+          </div>
+          <div id="left" class="col-sm-12 col-md-6 col-lg-4 cards" data-aos="fade-left" data-aos-duration="3000">
+            <div class="card" style="width: 100%">
+              <img src="game3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Prey</h5>
+                <p class="card-text">
+                  <span>PREY</span> is a first-person sci-fi action game from Arkane Studios, the award-winning creators of the Dishonored franchise.
+                </p>
+                <a href="#" class="btn btn-primary">$23.99</a>
+              </div>
+            </div>
+          </div>
+          <div id="right" class="col-sm-12 col-md-6 col-lg-4 cards" data-aos="fade-right">
+            <div class="card" style="width: 100%">
+              <img src="game4.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pubg-Mobile</h5>
+                <p class="card-text">
+                  <span>PUBG MOBILE</span> is the original battle royale game on mobile and one of the best mobile shooting games.
+                </p>
+                <a href="#" class="btn btn-primary">$92.99</a>
+              </div>
+            </div>
+          </div>
+          <div id="right" class="col-sm-12 col-md-6 col-lg-4 cards" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card" style="width: 100%">
+              <img src="game5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Split Fiction</h5>
+                <p class="card-text">
+                  <span>SLPIT FICTION</span> is an  adventure. Mio and Zoe don't get along at first, but soon enough they become each other's only hopes.
+                </p>
+                <a href="#" class="btn btn-primary">$56.99</a>
+              </div>
+            </div>
+          </div>
+          <div id="right" class="col-sm-12 col-md-6 col-lg-4 cards" data-aos="fade-right" data-aos-duration="3000">
+            <div class="card" style="width: 100%">
+              <img src="game6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Star Wars OUTLAWS</h5>
+                <p class="card-text">
+                  <span>STAR WARS OUTLAWS</span> is effectively a kind of gateway open world game, pitched more broadly at the young adult crowd.
+                </p>
+                <a href="#" class="btn btn-primary">$39.99</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class= "more" ><a id="more" href=""><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ----------------featured-section-end------------- -->
+
+
+
+    <section id="old">
+      <div class="container" data-aos="fade-left">
+        <div class="text">
+        <h2>Old Games</h2>
+        <p>Alpha games is the place to build and play your collection of Good Old Games and modern hits. With our gamer-first approach and respecting your need for ownership, we're here to make games last forever.</p>
+      </div>
+      <a target="_blank" href="gallery.html"><button class="btn btn-danger">Wanna Play  <i class="fa-solid fa-arrow-right"></i></button>
+      </a>
+      </div>
+    </section>
+
+    <section id="slider-gallery">
+<div class="container">
+  <h2>Top Rated Games :</h2>
+  <hr>
+
+
+
+      <!-- Image Gallery Slider -->
+<div id="gallerySlider" class="carousel slide" data-bs-ride="carousel"data-bs-interval="2000"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="fall.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-block">
+        <div class="text">
+          <h2>GodFall</h2>
+          <p>
+             <span>GODFALL</span>Adventure through stunning vistas and challenge unique enemies in the Earth
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="castlivannia.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-block">
+        <div class="text">
+          <h2>Castlivania</h2>
+          <p>
+            <span>CASTLIVANIA</span> known in Japan as Akumajō Dracula, is a gothic horror action-adventure video game.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="gate.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-block">
+        <div class="text">
+          <h2>Baldur's Gate</h2>
+          <p>
+            <span>BALDUR'S GATE</span> is a series of role-playing video games set in the Forgotten Realms Dungeons & Dragons campaign setting.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add more images as needed -->
+  </div>
+
+  <!-- Prev/Next controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#gallerySlider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#gallerySlider" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+
+
+    </section>
+
+
+    <section id="contact">
+      <div class="container"  data-aos="fade-right">
+      <div class="text">
+        <h1>See any ISSUE ?</h1>
+        <p>Our team is dedicated to efficiently handling all types of issues—whether it's a technical bug, Game purchase, or a client concern. We prioritize timely responses, in-depth analysis, and quick resolutions to ensure smooth operations.</p>
+      </div>
+      <a href="contact.html"><button class="btn btn-danger">Contact Us  <i class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+    </section>
+
+
+
+    <section id="catalog">
+      <h2 class=""></h2>
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS (Body ke bilkul end mein before </body>) -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+   AOS.init({
+   once: true,       // Animation ek baar chale
+   mirror: false,    // Scroll back pe repeat na ho
+   duration: 800     // Customize animation duration
+   });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
