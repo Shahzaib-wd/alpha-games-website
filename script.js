@@ -35,3 +35,24 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(target);
   }
 });
+
+
+
+// Show button after scrolling 300px
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  const btn = document.getElementById("backToTopBtn");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+}
+
+// Scroll to top smoothly
+function topFunction() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
