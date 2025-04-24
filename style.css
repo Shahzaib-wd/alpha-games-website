@@ -509,3 +509,23 @@ margin-bottom: 20px;
 #backToTopBtn:hover {
   background-color: #0b5ed7;
 }
+
+
+
+#ending h2{
+  color: #ffc107;
+
+}
+#ending .btn{
+  background: rgb(110, 29, 114);
+  color: #ffc107;
+  border: none;
+  font-weight: bolder;
+}
+#ending .btn:hover{
+  background-color: #ffc107;
+  transform: scale(1.07);
+  box-shadow: 0 0 20px #ffc107;
+  color: rgb(110, 29, 114);
+  transition: all 0.4s ease-in-out;
+}
