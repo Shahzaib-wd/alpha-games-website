@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="icon" type="image/png" href="logo.png" />
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
@@ -12,6 +13,39 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
+
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="logo" style="height: 40px" />
+      </a>
+
+      <!-- Toggler button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+
+        <a href="contact.html" class="btn">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
 
     <div class="container">
         <h1 id="heading">About Us</h1>
@@ -76,7 +110,7 @@
     <div class="container">
       <h2 class="display-6 fw-bold mb-3">Join the Squad</h2>
       <p class="lead mb-4">Be part of a community where passion meets power. Get exclusive updates, early access, and unlock hidden game drops!</p>
-      <a href="galler.html" class="btn btn-warning btn-lg"><i class="fas fa-user-plus me-2"></i>Join Now</a>
+      <a href="gallery.html" class="btn btn-warning btn-lg"><i class="fas fa-user-plus me-2"></i>Join Now</a>
     </div>
   </section>
   <!-- Join The Squad Section End -->
@@ -137,6 +171,28 @@
       </div>
     </div>
   </footer>
+
+
+  <script>
+    // Show button after scrolling 300px
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  const btn = document.getElementById("backToTopBtn");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+}
+
+// Scroll to top smoothly
+function topFunction() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+  </script>
 
 </body>
 
