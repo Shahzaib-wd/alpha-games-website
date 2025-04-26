@@ -136,7 +136,7 @@ body{
     flex-direction: column;
   }
   #catalog .card-body .btn{
-    width: 150px;
+    width: 100px;
     background-color: rgb(110, 29, 114);
     border: none;
     font-weight: bolder;

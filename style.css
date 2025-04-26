@@ -66,6 +66,8 @@ body{
 
 
 
+
+
 .carousel-item{
     height: 100vh;
 }
@@ -433,6 +435,7 @@ body{
   color: white;
 }
 
+
 .textt h1{
   color: #ffc107;
 }
@@ -479,9 +482,21 @@ body{
   font-weight: bolder;
   
 }
+#catalog .card{
+  overflow: hidden;
+
+}
+#catalog .card h5{
+  font-weight: bolder;
+  color: rgb(110, 29, 114);
+}
+
+#catalog .card:hover img{
+  transform: scale(1.07);
+}
 
 
-#catalog #button {
+#catalog .btn{
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: rgb(110, 29, 114) !important;
@@ -489,7 +504,7 @@ body{
   font-weight: bolder;
 
 }
-#catalog #button:hover{
+#catalog .btn:hover{
   background-color: #ffc107 !important;
   color: rgb(110, 29, 114);
   box-shadow: 0 0 20px #ffc107;
