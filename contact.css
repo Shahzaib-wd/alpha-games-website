@@ -120,3 +120,22 @@ transition: background-color 0.3s;
 #backToTopBtn:hover {
 background-color: #0b5ed7;
 }
+
+footer .i{
+  transform: scale(1.2);
+  color: #ffc107;
+  box-shadow: 0 0 20px rgb(110, 29, 114);
+  transition: all 0.2s ease-in-out;
+}
+
+footer .i i:hover{
+  transform: scale(1.2);
+  color: #ffc107;
+  box-shadow: 0 0 20px rgb(110, 29, 114);
+  transition: all 0.2s ease-in-out;
+}
+
+footer h5{
+  color: #ffc107;
+  font-weight: bolder;
+}
