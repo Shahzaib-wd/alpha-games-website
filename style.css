@@ -474,6 +474,12 @@ body{
 
 }
 
+#catalog h2{
+  color: #ffc107;
+  font-weight: bolder;
+  
+}
+
 
 #catalog #button {
   margin-top: 20px;
